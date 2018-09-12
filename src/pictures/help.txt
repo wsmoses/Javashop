@@ -1,0 +1,100 @@
+HELP
+
+JavaShop is a multi-layered photo editing utility.
+Upon opening, JavaShop will create a new file for you.
+To open an image go to File and then selected Open.
+That image will be scaled to size and be added as the top layer.
+
+LAYERS
+Layers are representations of the image such that they can be moved around again, and placed on top another in any desired order.
+To change the ordering of any layer, select the layer (either from the list, or by clicking on it on-screen)
+then either use the layer buttons on the right of the screen, or select one of the tools from the layer menu.
+The list to the right of the screen shows all layers in order.
+The topmost layer is at the top of the list and the bottom-most layer is at the bottom of the list.
+The "NULL LAYER" is the background and cannot be edited.
+To add additional layers, go to the Layer menu and choose one of the options for Add Layer.
+JavaShop supports adding images from URLs, Files, or Colors.
+
+Drag and Drop
+JavaShop will automatically try to import a layer by dragging and dropping an image or image file onto the screen.
+It also will be able to import from images stored on the clipboard (eg you can go to a website and copy an image, then pasteit in the program).
+You can also copy, cut, and paste layers inside the program, however, the will not be pasted normally into other applications.
+
+SAVING LAYERS
+You may also save an individual layer with all of its effects and transparency.
+To do so, select the layer, then choose "Save Layer" from the Layer menu.
+
+ADJUSTMENT
+To adjust a layer, simply press on its location on the screen or select it from the layer list on the right.
+It should then have a blue box around it. (This indicates that the layer is selected. To de-select the layer, press on it again)
+You may then adjust its position, height, or width, by dragging the on-screen toolbars.
+You may also use keyboard input to adjust the layer.
+Press up, down, left, or right on the arrow keys to move the layer accordingly.
+You may also press delete to remove the layer.
+To scale the layer to the size of the image and center it, press "Scale to Frame Size" from the button on the right or the Layer Menu.
+
+FILTERS
+To apply filters to the image, adjust the sliders or text boxes to the right of the screen.
+Moving the sliders will automatically update.
+To update after typing in the textbox, press enter while inside the textbox.
+Available filters currently include: Red value, Green value, Blue value, Brightness, and Contrast.
+
+VISUAL EFFECTS
+There are also 3 visual effects currently supported.
+These can be found to the right of the screen and can be enabled by using a checkbox.
+Current visual effects include: grayscale, color inversion, and alpha inversion.
+
+COLOR SELECTOR
+To the left of the screen, there are several color sliders labeled Red, Green, and Blue.
+To the bottom of these sliders is a large colored rectangle.
+These sliders allow you to select any color you desire, and will display it on the panel.
+Additionally, the color panel allows you to select any of the colors in the image directly by clicking on them.
+(PLEASE NOTE THE BY CLICKING ON-SCREEN AT ANY TIME, THE COLOR IN THE WINDOW AND THE SLIDERS0 WILL CHANGE TO THAT COLOR) 
+
+ALPHA MASKING
+At the top of the color selector rectangle, you may notice a slider bar.
+This is for applying alpha effects.
+Having the slider set to the leftmost position indicated 0 alpha, full transparency, or no opacity.
+Having the slider set to the rightmost position indicated 255 alpha, no transparency, or full opacity.
+You can change the alpha of a layer by using the color selector, slider, and Alpha Buttons.
+To change the alpha of the entire layer, set the desired alpha level on the slider, 
+select the image, and press "Apply Alpha Mask On All."
+To change the alpha of the layer for one particular color, choose the color either by clicking or deriving it from the sliders,
+choose the desired alpha level of that color, then press "Apply Alpha Mask."
+It may be helpful to select the layer from the layer list on the right since clicking on a layer on-screen may change the color.
+However if you desire changing a specific color from the layer, click enough times on the spot which contains the color
+you wish to change so that the layer is selected. (If not previously selected, this will be once, if previously selected this will be twice.)
+
+LAYER PREVIEW
+JavaShop supports displaying a preview of the currently selected layer.
+This is displayed to the top left of the screen.
+It will only display the currently selected layer (with all effects applied)
+If there is alpha in your image, you will see a checker-board pattern where there is alpha.
+If nothing is selected, you will just see the checker-board image.
+
+DIRECT EFFECTS
+JavaShop supports a direct effect known as emboss.
+This will make the image appear as thought it has come out more.
+You may apply this effect by selecting emboss from the top right button labeled "Emboss"
+BE CAREFUL THOUGH
+Direct effect means that it edits the source image and cannot be undone.
+Be sure that you really want the effect before applying.
+
+SETTINGS
+You can adjust the resolution that you view the image in by selecting Image Settings from the Settings menu.
+A dialog box will pop up showing the current resolution.
+You may change the resolution by editing these textboxes with any natural number (Integer > 0)
+then pressing enter.
+You will immediately see the change.
+JUST DON'T FORGET TO HIT ENTER
+
+SAVING
+You can save your masterpiece as a PNG by selecting save from the File Menu.
+A File Chooser will pop up where you can select the name of your file.
+MAKE SURE TO APPEND the .PNG extension to your file when saving.
+
+EXPORTING
+You can export your masterpiece in any quality you want by selecting save from the File Menu.
+A box will pop up asking for the dimensions you wish to save it in.
+Like in saving, a File Chooser will pop up where you can select the name of your file.
+AGAIN, MAKE SURE TO APPEND the .PNG extension to your file when saving.

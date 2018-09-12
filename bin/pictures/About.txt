@@ -1,0 +1,7 @@
+ABOUT
+
+JavaShop is a multi-layered photo editing utility.
+It was created by Ninja as an application for the
+IDT (Innovative Defensive Technologies) Contest
+
+All rights reserved
